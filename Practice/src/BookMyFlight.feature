@@ -46,6 +46,12 @@ Feature: Booking a round trip flight
     Then I verify the class dropdown
       #For the above check that any class can be selected successfully
     And I verify that search flight button should take me to the next page
+    Then I validate that I should be able to click on the Book button
+    Then I should be able to populate my details and an option to Sign In should be present
+      #For signed it users , I would like to validate that details are auto populated
+      #I would also verify that if I don't populate even if one of the boxes, for example : title I should not be allowed to proceed
+    Then I validate that I am able to click Make Payment button
+
 
 
 
